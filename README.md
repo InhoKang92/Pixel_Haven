@@ -56,6 +56,7 @@
 + 최초 페이지 접근시 "Korea"를 디폴트 검색어로 한 이미지들을 메인 화면에 출력한다.(페이징 처리)
 + 네비게이션 바의 각 링크를 클릭시 해당 링크의 css가 변경되고 해당 이름을 검색어로한 검색 결과 이미지가 화면에 출력되며 1페이지로 돌아간다.
 + 검색창에 원하는 검색어를 입력하고 돋보기 버튼 또는 키보드의 enter 키를 누르면 검색 결과 이미지가 화면에 출력되고 1페이지로 돌아간다.
+
 ![Image](https://media.githubusercontent.com/media/InhoKang92/Pixel_Haven/refs/heads/main/src/assets/images/main1.gif)
 
 + 화면에 출력된 이미지 카드를 클릭하면 해당 이미지의 상세정보창이 노출된다.
@@ -64,6 +65,7 @@
 + 이미 북마크에 등록된 이미지의 경우 "해당 이미지는 이미 북마크에 추가되어 있습니다" 토스트 팝업이 노출된다.
 + 이미 북마크에 저장되어있는 이미지의 상세정보창을 클릭하면 북마크버튼의 css가 이미 변경된 상태로 출력된다.
 + 상세정보창의 우측 상단 X 버튼 또는 키보드의 esc 키를 누르면 상세정보창이 사라진다.
+
 ![Image](https://media.githubusercontent.com/media/InhoKang92/Pixel_Haven/refs/heads/main/src/assets/images/main2.gif)
 
 
@@ -72,5 +74,6 @@
 + 이 때, 로컬스토리지에 등록된 이미지 객가 없으면 '북마크 등록하러 가기' 버튼이 노출되고 해당 버튼을 클릭시 메인 페이지로 이동된다.
 + 북마크에 등록된 이미지가 있으면 로컬스토리지에서 이미지 객체를 값으로 가지는 북마크 배열을 불러와 map함수를 이용하여 화면에 출력한다.
 + 북마크에 등록된 이미지 카드에 마우스를 호버하면 '북마크 해제' 버튼이 노출되고 해당 버튼 클릭시 로컬스토리지 북마크 배열에서 해당 이미지 객체를 삭제하고 화면을 재렌더링한다.
+
 ![Image](https://media.githubusercontent.com/media/InhoKang92/Pixel_Haven/refs/heads/main/src/assets/images/bookmark1.gif)
 
