@@ -1,0 +1,72 @@
+[
+    {
+        "index": 0,
+        "path": "/search/Wallpaper",
+        "label" : "Wallpaper",
+        "searchValue" : "Wallpaper",
+        "isActive" : false
+    },
+    {
+        "index": 1,
+        "path": "/search/Nature",
+        "label" : "Nature",
+        "searchValue" : "Nature",
+        "isActive" : false
+    },
+    {
+        "index": 2,
+        "path": "/search/Animals",
+        "label" : "Animals",
+        "searchValue" : "Animals",
+        "isActive" : false
+    },
+    {
+        "index": 3,
+        "path": "/search/Texture",
+        "label" : "Texture",
+        "searchValue" : "Texture",
+        "isActive" : false
+    },
+    {
+        "index": 4,
+        "path": "/search/Interior",
+        "label" : "Interior",
+        "searchValue" : "Interior",
+        "isActive" : false
+    },
+    {
+        "index": 5,
+        "path": "/search/Travel",
+        "label" : "Travel",
+        "searchValue" : "Travel",
+        "isActive" : false
+    },
+    {
+        "index": 6,
+        "path": "/search/Food",
+        "label" : "Food",
+        "searchValue" : "Food",
+        "isActive" : false
+    },
+    {
+        "index": 7,
+        "path": "/search/People",
+        "label" : "People",
+        "searchValue" : "People",
+        "isActive" : false
+    },
+    {
+        "index": 8,
+        "path": "/search/Fashion",
+        "label" : "Fashion",
+        "searchValue" : "Fashion",
+        "isActive" : false
+    },
+    {
+        "index": 9,
+        "path": "/search/Sports",
+        "label" : "Sports",
+        "searchValue" : "Sports",
+        "isActive" : false
+    }
+]

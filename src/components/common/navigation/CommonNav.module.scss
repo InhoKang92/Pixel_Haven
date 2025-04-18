@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 20px;
+
+    &__menu {
+        color: main.$color-gray-400;
+        text-decoration: none;
+
+        &:hover {
+            color: main.$color-black-900;
+        }
+
+        &__label {
+            font-size: 21px;
+        }
+    }
+
+    &__active {
+        padding-bottom: 5px;
+        
+        color: main.$color-black-900;
+        border-bottom: 2px solid main.$color-white-700;
+    }
+}

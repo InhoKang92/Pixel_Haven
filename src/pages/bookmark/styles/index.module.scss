@@ -1,0 +1,157 @@
+
+.bookmarkPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 100vh;
+
+    &__mainImgBox {
+        width: 100%;
+        height: 300px;
+
+        overflow: hidden;
+
+        &__image {
+            width: 100%;
+        }
+    }
+
+    &__navBlock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 30px;
+
+        width: 100%;
+
+        padding: 20px 20px 20px;
+
+        border-bottom: 1px solid main.$color-gray-200;
+
+        &__buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            gap: 10px;
+
+            .span {
+                color: main.$color-gray-500;
+            }
+
+            .bookmarkBtn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                padding: 6px 10px;
+
+                background: main.$color-rose-500;
+                border: 1px solid main.$color-rose-500;
+
+                color: main.$color-white-000;
+
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    &__contents {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 16px;
+        flex-wrap: wrap;
+        
+        width: 100%;
+        height: calc(100% - 140px - 300px - 79px - 50px);
+
+        padding: 50px;
+        
+        overflow-y: scroll;
+
+        &__noData {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            gap: 20px;
+    
+            width: 100%;
+            height: 100%;
+    
+            font-size: 36px;
+            font-weight: 600;
+    
+            color: main.$color-gray-400;
+
+            .moveToMain {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                font-size: 28px;
+                font-weight: 600;
+
+                padding: 5px 10px;
+
+                border: 1px solid main.$color-gray-400;
+                border-radius: 0;
+                background: main.$color-white-000;
+
+                color: main.$color-gray-400;
+
+                cursor: pointer;
+
+                &:hover {
+                    background: main.$color-gray-400;
+
+                    color: main.$color-white-000;
+                }
+            }
+        }
+
+        &__card {
+            position: relative;
+
+            .hoverBox {
+                display: none;
+                align-items: center;
+                justify-content: center;
+
+                width: 300px;
+                height: 400px;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                background: rgba(0, 0, 0, 0.7);
+
+                z-index: 100;
+
+                &__button {
+                    margin-top: -169px;
+                    font-size: 16px;
+                    padding: 5px 10px;
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        width: 100%;
+        height: 50px;
+
+        border-top: 1px solid main.$color-gray-200;
+    }
+}
