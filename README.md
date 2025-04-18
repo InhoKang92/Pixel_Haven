@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/12de29ff-c238-406b-a149-ab4dd308f608)
 
 # REACT 개인 프로젝트 PixelHaven
 
